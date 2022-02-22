@@ -12,7 +12,7 @@ const image = require("./controllers/image")
 const db = knex({
     client: "pg",
     connection: {
-        host: "localhost",
+        host: "postgresql-reticulated-71540",
         port: 5433,
         user: "admin",
         password: "secret",
