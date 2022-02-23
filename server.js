@@ -16,7 +16,7 @@ const db = knex({
     connection: {
         connectionString: process.env.DATABASE_URL,
         ssl: true
-        // host: "localhost"
+        // host: "localhost",
         // port: 5433,
         // user: "admin",
         // password: "secret",
